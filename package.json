@@ -1,0 +1,27 @@
+{
+  "name": "git-web",
+  "version": "1.0.0",
+  "description": "Additional Git tools for web interaction from command line",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hawkins/git-web.git"
+  },
+  "keywords": [
+    "git",
+    "cli"
+  ],
+  "author": "Josh Hawkins",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hawkins/git-web/issues"
+  },
+  "homepage": "https://github.com/hawkins/git-web#readme",
+  "dependencies": {
+    "github": "^9.2.0"
+  }
+}
