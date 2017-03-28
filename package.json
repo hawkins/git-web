@@ -15,7 +15,16 @@
     "git",
     "cli"
   ],
-  "author": "Josh Hawkins",
+  "author": {
+    "name": "Josh Hawkins",
+    "email": "hawkinswritescode@gmail.com",
+    "url": "https://github.com/hawkins"
+  },
+  "contributors": [{
+    "name": "J. Dalton Childers",
+    "email": "dalton@jdaltonchilders.org",
+    "url": "https://www.github.com/jdaltonchilders"
+  }],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hawkins/git-web/issues"
