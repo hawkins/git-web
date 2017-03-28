@@ -1,5 +1,7 @@
 const GitHubApi = require("github");
 
+const issues = require("./commands/issues");
+
 const username = process.argv[2];
 const password = process.argv[3];
 
@@ -21,12 +23,10 @@ github.authenticate({
     password: password
 });
 
-github.issues.getAll({}).then(results => {
-  // TODO: Who am i?
-  console.log(`Issues currently assigned to `)
-  results.data.forEach(item => {
-    console.log(`${item.title}\n-> ${item.repository.name}`);
-  });
-}).catch(err => {
-  console.error(err);
-})
+// Decide command
+const command = process.argv[4].toLowerCase();
+
+// Execute command
+if (command === "issue" || command === "issues") {
+  issues(process.argv.slice(5), github);
+}
