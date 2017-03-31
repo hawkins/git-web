@@ -20,18 +20,21 @@
     "email": "hawkinswritescode@gmail.com",
     "url": "https://github.com/hawkins"
   },
-  "contributors": [{
-    "name": "J. Dalton Childers",
-    "email": "dalton@jdaltonchilders.org",
-    "url": "https://www.github.com/jdaltonchilders"
-  }],
+  "contributors": [
+    {
+      "name": "J. Dalton Childers",
+      "email": "dalton@jdaltonchilders.org",
+      "url": "https://www.github.com/jdaltonchilders"
+    }
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hawkins/git-web/issues"
   },
   "homepage": "https://github.com/hawkins/git-web#readme",
   "dependencies": {
-    "github": "^9.2.0"
+    "github": "^9.2.0",
+    "homedir": "^0.6.0"
   },
   "devDependencies": {
     "jest": "^19.0.2"
